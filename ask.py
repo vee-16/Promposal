@@ -12,10 +12,11 @@ def display_invite():
         print(p[i] + "  " + r[i] + "  " + o[i] + "  " + m[i])
 
     while True:
-      print("Yes or no:")
-      reply = input().lower()
-      if reply == "yes" or reply == "y":
-        break
+        print("Yes or no:")
+        reply = input().lower()
+        if reply == "yes" or reply == "y":
+            break
+
 
 if __name__ == "__main__":
     display_invite()
