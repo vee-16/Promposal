@@ -7,7 +7,6 @@ def display_invite():
     o = [" _ _ _ ", "| _ _ |", "| | | |", "| | | |", "| | | |", "| _ _ |", " "]
     m = [" _   _ ", "| \\ / |", "| | | |", "| | | |", "| | | |", "| | | |      ?", "  "]
 
-    # Printing each line of the letters to form the word "PROM"
     for i in range(7):
         print(p[i] + "  " + r[i] + "  " + o[i] + "  " + m[i])
 
